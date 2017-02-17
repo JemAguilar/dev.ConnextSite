@@ -2,7 +2,7 @@ body{
   padding-top: 70px;
 }
 h4{
-  font-family: PtSerif;
+  font-family: "PT Serif";
   font-size: 20px;
   font-weight: bold;
   color: #343a3d;
@@ -15,20 +15,61 @@ hr{
   margin: 0.1em 0;
   padding: 0;
 }
+/* --------------- HOME ---------------- */
+
+/* ---- Services ---- */
 #services{
   padding-bottom: 60px;
 }
+#services h4{
+  font-family: "PT Serif";
+  font-size: 20px;
+  font-weight: bold;
+  color: #343a3d;
+  padding-top: 40px;
+  padding-bottom:20px;
+}
+.services-caption{
+  color:#7e868a;
+  font-family:"Roboto";
+  font-size:14px;
+  font-weight: normal;
+  padding-top:30px;
+}
+
+/* ---- Careers ---- */
 #careers{
   padding-top: 60px;
   padding-left:10%;
   padding-right:10%;
-
 }
+.career{
+  padding-top:50px;
+}
+.career> h4{
+  font-family: "PT Serif";
+  font-size: 20px;
+  font-weight: bold;
+  color: #343a3d;
+  padding-top:15px;
+}
+.career> button{
+  background-color: #0f75de;
+  border-radius:7px;
+  border:0px;
+  padding: 10px;
+  font-family: "Helvetica Neue",Helvetica;
+  font-weight: bold;
+  font-size:12px;
+}
+
+/* ---- Case Study---- */
 #caseStudy{
   padding-top: 50px;
+  padding-bottom:70px;
 }
 #caseStudy a{
-  font-family:Helvetica;
+  font-family:"Helvetica Neue",Helvetica;
   font-weight: bold;
   font-size: 12px;
 }
@@ -43,23 +84,44 @@ hr{
   padding-left:20px;
   color:#b3b9c9;
 }
+#caseStudy a>span.fa.fa-arrow-right:hover{
+  color:#1063b9;
+}
+.case-heading{
+  font-family:"PT Serif";
+  font-size:38px;
+  color: #343a3d;
+  text-align:center;
+  padding-bottom:30px;
+}
+.caseStudy-caption{
+  color:#7e868a;
+  font-family:"Roboto";
+  font-size:14px;
+  font-weight: normal;
+  padding-bottom:20px;
+  padding-top:5px;
+}
+.caseStudy-date{
+  color:#7e868a;
+  font-family:"Helvetica Neue",Helvetica;
+  font-size:14px;
+  font-weight: bold;
+  padding-bottom:10px;
+}
+
+/* --------------- About ---------------- */
 #about{
   padding-bottom:60px;
 }
 #about h4{
-  font-family:PtSerif;
+  font-family:"PT Serif";
   font-size:35px;
   font-weight: bold;
+  padding-top:60px;
 }
-.container-fluid{
-  margin-left:0px;
-  margin-right:0px;
-  padding-left:0px;
-  padding-right:0px;
-}
-.img-responsive{
-  width:100%;
-}
+
+/* --------------- Contact ---------------- */
 #contact{
   margin-left:0px;
   margin-right:0px;
@@ -67,10 +129,10 @@ hr{
   padding-right:0px;
 }
 #contact .map{
-  padding-top:20%;
+  padding-top:15%;
   padding-left:35%;
   font-size:18px;
-  font-family:PtSerif;
+  font-family:"PT Serif";
 }
 #contact .map .fa,
 #contact .map .glyphicon {
@@ -84,146 +146,118 @@ hr{
 #contact .map .site-loc{
   font-weight:bold;
 }
+.media{
+  padding-top:15px;
+}
+
+/* --------------- Menu ---------------- */
 .navbar-inverse{
   background-color: #fff;
   border-color: #fff;
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #343a3d;
-  font-family: Helvetica;
+  font-family: "Helvetica Neue",Helvetica;
   font-size: 14px;
   font-weight: bold;
-  padding-left: 30px;
-  padding-right: 30px;
+  margin-left: 35px;
+  display:block;
 }
-.navbar-inverse .navbar-nav > li > a:hover {
-  color: #7e7e7e;
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:active>a,
+.navbar-inverse .navbar-nav > li > a:focus{
+  border-bottom:5px solid  #343a3d;
+  background-color: transparent;
+  padding-bottom:0px;
+  color:#343a3d;
 }
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:active>a,
+.navbar-inverse .navbar-nav > li > a:focus{
+  color:#696969;
+  transition: 0.3s  ease-out;
+}
+
 .navbar-brand>img {
   height: 30px;
   width: 100px;
 }
-.page-header {
-  border: 0 none;
-  box-shadow: none;
-  margin:0;
-  padding:0;
+
+/* --------------- Hero ---------------- */
+.intro-header {
+  background: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  font-family: "PT Serif";
 }
-.banner-caption {
-  width:100%;
-  bottom: 30%;
-  padding-left: 25%;
-  padding-right:25%;
-  position: absolute;
-  font-family: PtSerif;
-  font-size: 44px;
-  color:#fff;
-  font-weight: normal;
+.intro-header .site-heading,
+.intro-header .site-heading2{
+  padding: 100px 0 50px;
+  color: white;
+  text-align: center;
 }
-.banner-subcaption{
-  padding-left: 15%;
-  padding-right:15%;
-  font-family: Roboto;
-  font-size: 15px;
-  color:#fff;
-  font-weight: normal;
+@media only screen and (min-width: 768px) {
+  .intro-header .site-heading {
+    padding: 150px 0;
+  }
 }
-.about-caption {
-  width:100%;
-  bottom: 30%;
-  padding-left: 25%;
-  padding-right:25%;
-  position: absolute;
-  font-family: PtSerif;
-  font-size: 30px;
-  color:#fff;
+.intro-header .site-heading h1 {
+  margin-top: 0;
+  font-size: 40px;
+}
+.intro-header .site-heading2 h1 {
+  margin-top: 0;
+  font-size: 29px;
   font-weight: bold;
+  padding-left:15%;
+  padding-right: 15%;
+  padding-bottom:20px;
 }
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-  .banner-caption{
-    bottom: 25%;
-    padding-left: 25%;
-    padding-right: 25%;
-    font-size: 35px;
-  }
-  .banner-subcaption{
-    font-size: 13px;
-  }
-  .about-caption{
-    bottom: 25%;
-    padding-left: 25%;
-    padding-right: 25%;
-    font-size: 23px;
-  }
-}
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-  .banner-caption{
-    bottom: 20%;
-    padding-left: 25%;
-    padding-right: 25%;
-    font-size: 20px;
-  }
-  .banner-subcaption{
-    font-size: 11px;
-  }
-  .about-caption{
-    bottom: 20%;
-    padding-left: 25%;
-    padding-right: 25%;
-    font-size: 17px;
-  }
-}
-.services-caption{
-  color:#7e868a;
-  font-family:Roboto;
-  font-size:14px;
+.intro-header .site-heading .subheading {
+  font-size: 16px;
+  line-height: 1.5;
+  display: block;
+  font-family: 'Roboto';
   font-weight: normal;
+  margin: 10px 0 0;
 }
-.career{
-  padding-top:50px;
-}
-.career> h4{
-  font-family: PtSerif;
-  font-size: 20px;
-  font-weight: bold;
-  color: #343a3d;
-  padding-top:15px;
-}
-.career> button{
-  background-color: #0f75de;
-  border-radius:7px;
-  border:0px;
-  padding: 10px;
-  font-family: Helvetica;
-  font-weight: bold;
-  font-size:12px;
-}
-.case-heading{
-  font-family:PtSerif;
-  font-size:38px;
-  color: #343a3d;
-  text-align:center;
-  padding-bottom:30px;
+@media only screen and (min-width: 768px) {
+  .intro-header .site-heading h1{
+    font-size: 44px;
+    color:#fff;
+    font-weight: normal;
+  }
+  .intro-header .site-heading2 h1{
+    font-size: 27px;
+  }
 }
 
+/* --------------- Footer ---------------- */
 .panel-footer{
   background-color:#0f75de;
   border:0px;
   color:#fff;
-  font-family:Helvetica;
+  font-family:"Helvetica Neue",Helvetica;
   padding-top:20px;
   height:auto;
+}
+.panel-footer .row{
+padding-bottom: 15px;
 }
 .footer-logo li{
   display:inline;
 }
-.footer-logo li>a>span{
+.footer-logo li>a>i{
   padding-left: 20px;
   color:#fff;
   font-size:20px;
   text-align:right;
+}
+.footer-logo li>a>i:hover{
+  color:#afd7ef;
 }
 .loc{
   font-size:14px;
@@ -231,4 +265,10 @@ hr{
 .copyright{
   text-align: center;
   font-size: 12px;
+  padding-top:20px;
+}
+
+/* --------------- Global ---------------- */
+.img-responsive{
+  width:100%;
 }

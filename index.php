@@ -35,15 +35,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">
+                <a class="navbar-brand" href="index.html">
                   <img src="assets/home/connext_logo.png" alt="" >
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.php">HOME</a>
+                    <li class="active">
+                        <a href="index.html">HOME</a>
                     </li>
                     <li>
                         <a href="about.html">ABOUT</a>
@@ -61,58 +61,51 @@
         <!-- /.container -->
     </nav>
     <!--page header-->
-    <header>
-      <div class="col-md-12 page-header text-center">
-        <img alt="" class="img-responsive" src="assets/home/home_banner-img.png">
-        <div class="banner-caption">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    <header class="intro-header" style="background-image:url('assets/home/home_banner-img.png');">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="site-heading">
+              <h1>
+                Lorem ipsum dolor sit amet,<br/>
+                consectetur adipiscing elit
+              </h1>
+            </div>
+          </div>
         </div>
       </div>
     </header>
-
     <!-- Page Content -->
       <!--Services -->
     <div class="container">
       <div class="row" id="services">
         <div class="col-md-3 col-sm-6">
-          </br>
           <h4>Health Care Services</h4>
-          <br/>
           <img alt="" class="img-responsive" src="assets/home/home_services1-img.png">
-          <br/>
           <p class="services-caption">
             Lorem ipsum dolor sit amet, constetur adipiscing elit, sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris sid alupe hes polo.
           </p>
         </div>
         <div class="col-md-3 col-sm-6">
-          </br>
           <h4>Escrow Services</h4>
-          <br/>
           <img alt="" class="img-responsive" src="assets/home/home_services2-img.png">
-          <br/>
           <p class="services-caption">
             Lorem ipsum dolor sit amet, constetur adipiscing elit, sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris sid alupe hes polo.
           </p>
         </div>
         <div class="col-md-3 col-sm-6">
-          </br>
           <h4>Legal Services</h4>
-          <br/>
           <img alt="" class="img-responsive" src="assets/home/home_services3-img.png">
-          <br/>
           <p class="services-caption">
             Lorem ipsum dolor sit amet, constetur adipiscing elit, sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris sid alupe hes polo.
           </p>
         </div>
         <div class="col-md-3 col-sm-6">
-          </br>
           <h4>Other Services</h4>
-          <br/>
           <img alt="" class="img-responsive" src="assets/home/home_services4-img.png">
-          <br/>
           <p class="services-caption">
             Lorem ipsum dolor sit amet, constetur adipiscing elit, sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris sid alupe hes polo.
@@ -120,7 +113,6 @@
         </div>
       </div>
     </div>
-
       <!--Careers -->
     <div class="container">
       <div class="row" id="careers">
@@ -148,48 +140,43 @@
       <div class="row" id="caseStudy">
         <p class="case-heading">Our Case Studies</p>
         <div class="col-md-3 col-sm-6">
-          <p class="services-caption"><strong> 02 FEB 2016 </strong></p>
+          <p class="caseStudy-date">02 FEB 2016</p>
           <h4>Support Services a success.</h4>
-          <p class="services-caption">
+          <p class="caseStudy-caption">
             Lorem ipsum dolor sit amet, consect etur adipiscing elit,sed do eiusmod tempor incididunt ut labore
             et dolore magna aliqua. Ut enim ad minim...
           </p>
-          <br/>
           <a href="#">READ MORE<span class="fa fa-arrow-right" aria-hidden="true"></span></a>
         </div>
         <div class="col-md-3 col-sm-6">
-          <p class="services-caption"><strong> 12 FEB 2016 </strong></p>
+          <p class="caseStudy-date">12 FEB 2016</p>
           <h4>Support Services a success.</h4>
-          <p class="services-caption">
+          <p class="caseStudy-caption">
             Lorem ipsum dolor sit amet, consect etur adipiscing elit,sed do eiusmod tempor incididunt ut labore
             et dolore magna aliqua. Ut enim ad minim...
           </p>
-          <br/>
           <a href="#">READ MORE<span class="fa fa-arrow-right" aria-hidden="true"></span></a>
         </div>
         <div class="col-md-3 col-sm-6">
-          <p class="services-caption"><strong> 29 FEB 2016 </strong></p>
+          <p class="caseStudy-date">29 FEB 2016</p>
           <h4>Support Services a success.</h4>
-          <p class="services-caption">
+          <p class="caseStudy-caption">
             Lorem ipsum dolor sit amet, consect etur adipiscing elit,sed do eiusmod tempor incididunt ut labore
             et dolore magna aliqua. Ut enim ad minim...
           </p>
-          <br/>
           <a href="#">READ MORE<span class="fa fa-arrow-right" aria-hidden="true"></span></a>
         </div>
         <div class="col-md-3 col-sm-6">
-          <p class="services-caption"><strong> 05 MARCH 2016 </strong></p>
+          <p class="caseStudy-date">05 MARCH 2016</p>
           <h4>Support Services a success.</h4>
-          <p class="services-caption">
+          <p class="caseStudy-caption">
             Lorem ipsum dolor sit amet, consect etur adipiscing elit,sed do eiusmod tempor incididunt ut labore
             et dolore magna aliqua. Ut enim ad minim...
           </p>
-          <br/>
           <a href="#">READ MORE<span class="fa fa-arrow-right" aria-hidden="true"></span></a>
         </div>
       </div>
     </div>
-    <br/><br/><br/>
     <!-- /.container -->
 
     <!-- footer-->
@@ -208,21 +195,19 @@
             <div class="pull-right">
               <ul class="footer-logo">
                 <li>
-                  <a href="#"><span class="fa fa-facebook"></span></a>
+                  <a href="#"><i class="fa fa-facebook" title="facebook"></i></a>
                 </li>
                 <li>
-                  <a href="#"><span class="fa fa-twitter"></span></a>
+                  <a href="#"><i class="fa fa-twitter" title="twitter"></i></a>
                 </li>
                 <li>
-                  <a href="#"><span class="fa fa-instagram"></span></a>
+                  <a href="#"><i class="fa fa-instagram" title="instagram"></i></a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <br/>
         <hr/>
-        <br/>
         <p class="copyright"><span class="fa fa-copyright"></span> 2016 Connext LLC. All rights reserved</p>
       </div>
     </div>

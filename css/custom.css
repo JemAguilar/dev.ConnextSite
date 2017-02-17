@@ -15,9 +15,7 @@ hr{
   margin: 0.1em 0;
   padding: 0;
 }
-/* --------------- HOME ---------------- */
 
-/* ---- Services ---- */
 #services{
   padding-bottom: 60px;
 }
@@ -37,7 +35,6 @@ hr{
   padding-top:30px;
 }
 
-/* ---- Careers ---- */
 #careers{
   padding-top: 60px;
   padding-left:10%;
@@ -63,7 +60,6 @@ hr{
   font-size:12px;
 }
 
-/* ---- Case Study---- */
 #caseStudy{
   padding-top: 50px;
   padding-bottom:70px;
@@ -110,7 +106,6 @@ hr{
   padding-bottom:10px;
 }
 
-/* --------------- About ---------------- */
 #about{
   padding-bottom:60px;
 }
@@ -121,7 +116,6 @@ hr{
   padding-top:60px;
 }
 
-/* --------------- Contact ---------------- */
 #contact{
   margin-left:0px;
   margin-right:0px;
@@ -150,7 +144,6 @@ hr{
   padding-top:15px;
 }
 
-/* --------------- Menu ---------------- */
 .navbar-inverse{
   background-color: #fff;
   border-color: #fff;
@@ -186,7 +179,6 @@ hr{
   width: 100px;
 }
 
-/* --------------- Hero ---------------- */
 .intro-header {
   background: no-repeat;
   background-size: cover;
@@ -235,7 +227,6 @@ hr{
   }
 }
 
-/* --------------- Footer ---------------- */
 .panel-footer{
   background-color:#0f75de;
   border:0px;
@@ -268,7 +259,6 @@ padding-bottom: 15px;
   padding-top:20px;
 }
 
-/* --------------- Global ---------------- */
 .img-responsive{
   width:100%;
 }
